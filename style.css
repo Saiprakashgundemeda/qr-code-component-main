@@ -1,0 +1,52 @@
+
+.background{
+    background-color: azure;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    margin:20px;
+    border-radius:10px ;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.height-image{
+    padding:10px;
+    height:50vh;
+    border-radius: 10px;
+}
+@media screen and (max-width: 400px){
+    .height-image{
+        height: 30vh;
+        border-radius:10px;
+    }
+    
+}
+@media screen and (min-width: 750px){
+    .height-image{
+        height: 50vh;
+        border-radius:10px;
+    }
+    .card-container{
+        text-align: center;
+        background-color: white;
+        padding:20px;
+        margin:20px;
+        border-radius:10px ;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    }
+    
+}
+
+.heading{
+    color:hsl(218, 44%, 22%);
+}
+.paragraph{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
